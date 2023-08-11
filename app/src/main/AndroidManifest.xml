@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Grupo1_Final"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activies.NavigationActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginCorActivity"
             android:exported="false" />
         <activity
